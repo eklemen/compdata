@@ -90,14 +90,17 @@ setData('SomeOtherComponent', {data})
 ```jsx harmony
 store: {
     CompData: {
-        Medications: {
-            selectedRx: '#1313'
-        },
         LoginContainer: {
             isAuthenticated: true,
             userInfo: {
-                name: "Tim",
-                patientId: '232323'
+                name: 'Tim',
+                email: 'tim@domain.com'
+            }
+        },
+        Todos: {
+            selectedTodo: {
+                title: 'take dog for a walk',
+                complete: true
             }
         }
     }
